@@ -1,6 +1,6 @@
-// This file is part of Ark Go Client.
+// This file is part of PHATOM Go Client.
 //
-// (c) Ark Ecosystem <info@ark.io>
+// (c) PhantomChain <info@phantom.org>
 //
 // For the full copyright and license information, please view the LICENSE
 // file that was distributed with this source code.
@@ -14,7 +14,7 @@ import (
 )
 
 // WalletsService handles communication with the wallets related
-// methods of the Ark Core API - Version 2.
+// methods of the Phantom Core API - Version 2.
 type WalletsService Service
 
 // Get all wallets.

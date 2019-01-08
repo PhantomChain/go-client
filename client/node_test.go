@@ -1,6 +1,6 @@
-// This file is part of Ark Go Client.
+// This file is part of PHATOM Go Client.
 //
-// (c) Ark Ecosystem <info@ark.io>
+// (c) PhantomChain <info@phantom.org>
 //
 // For the full copyright and license information, please view the LICENSE
 // file that was distributed with this source code.
@@ -85,13 +85,13 @@ func TestNodeService_Configuration(t *testing.T) {
 			`{
 			  "data": {
 			    "nethash": "578e820911f24e039733b45e4882b73e301f813a0d2c31330dafda84534ffa23",
-			    "token": "DARK",
-			    "symbol": "DѦ",
-			    "explorer": "https://dexplorer.ark.io",
+			    "token": "DXPH",
+			    "symbol": "Dⓟ",
+			    "explorer": "https://dexplorer.phantom.org",
 			    "version": 30,
 			    "ports": {
-			      "@arkecosystem/core-p2p": "4002",
-			      "@arkecosystem/core-api": "4003"
+			      "@phantomchain/core-p2p": "4002",
+			      "@phantomchain/core-api": "4003"
 			    },
 			    "constants": {
 			      "height": 75600,
@@ -164,13 +164,13 @@ func TestNodeService_Configuration(t *testing.T) {
 	testResponseStruct(t, "Node.Configuration", responseStruct, &GetNodeConfiguration{
 		Data: NodeConfiguration{
 			Nethash:  "578e820911f24e039733b45e4882b73e301f813a0d2c31330dafda84534ffa23",
-			Token:    "DARK",
-			Symbol:   "DѦ",
-			Explorer: "https://dexplorer.ark.io",
+			Token:    "DXPH",
+			Symbol:   "Dⓟ",
+			Explorer: "https://dexplorer.phantom.org",
 			Version:  30,
 			Ports: map[string]string{
-				"@arkecosystem/core-p2p": "4002",
-				"@arkecosystem/core-api": "4003",
+				"@phantomchain/core-p2p": "4002",
+				"@phantomchain/core-api": "4003",
 			},
 			Constants: NodeConstants{
 				Height:          75600,

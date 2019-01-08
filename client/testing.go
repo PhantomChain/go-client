@@ -1,6 +1,6 @@
-// This file is part of Ark Go Client.
+// This file is part of PHATOM Go Client.
 //
-// (c) Ark Ecosystem <info@ark.io>
+// (c) PhantomChain <info@phantom.org>
 //
 // For the full copyright and license information, please view the LICENSE
 // file that was distributed with this source code.
@@ -45,7 +45,7 @@ func setupTest() (client *Client, mux *http.ServeMux, serverURL string, teardown
 	// server is a test HTTP server used to provide mock API responses.
 	server := httptest.NewServer(apiHandler)
 
-	// client is the Ark client being tested and is
+	// client is the Phantom client being tested and is
 	// configured to use test server.
 	client = NewClient(nil)
 	url, _ := url.Parse(server.URL + baseURLPath + "/")
